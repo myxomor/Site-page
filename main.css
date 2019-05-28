@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto:400,500');
+
+body {
+    background-color: #E5E5E5;
+}
+
+.footer-container, .header-container, .content-1-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 1110px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#icon-stroke {
+    margin-left: 29px;
+}
+
+.box{
+    width: 309px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 39px;
+}
+
+.container-1{
+    width: 309px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+
+.container-1 input#search{
+    width: 309px;
+    height: 35px;
+    background: #FFFFFF;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    float: left;
+    color: rgba(0, 0, 0, 0.56);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.container-1 .input-icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 284px;
+    margin-top: 11px;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.container-1 .input-rectangle{
+    position: absolute;
+    top: 50%;
+    margin-left: 271px;
+    margin-top: 8px;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.content-1{
+    width: 1110px;
+    height: 445px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    margin-top: 22px;
+    display: flex;
+}
+
+.content-1-col{
+    margin-left: 68px;
+    margin-top: 73px;
+}
+
+.content-1-img{
+    width: 325px;
+    height: 349px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 34px;
+}
+
+#prodazha{
+    margin-top: 29px;
+    height: 68px;
+}
+
+.header {
+    width: 1110px;
+    height: 72px;
+    background-color: #3775ED;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.small-text {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+#adress{
+    margin-left: 9px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2px;
+}
+#enter{
+    margin-right: 29px;
+}
+#icon-rectangle{
+    margin-right: 11px;
+}
+#registation{
+    margin-right: 12px;
+}
+#icon{
+    margin-left: 41px;
+    height: 19px;
+}
+.big-text{
+    font-family: Montserrat, serif;
+    font-size: 44px;
+    font-weight: 900;
+    font-style: normal;
+}
+.bold-text{
+    font-family: Montserrat, serif;
+    font-weight: 700;
+}
+.medium-text{
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    font-size: 24px;
+}
+.button{
+    width: 124px;
+    height: 48px;
+    margin-top: 39px;
+    background-color: #3775ED;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
